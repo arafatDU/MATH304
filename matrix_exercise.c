@@ -36,7 +36,7 @@ int main()
 			{
 				x[j][k] = x[j][k] - mij*x[i][k];
 			}
-			}
+		}
 			
 		printf("Round= %d\n", i+1);
 		for(ip=0; ip<NMAX; ip++)
@@ -178,7 +178,7 @@ int main()
 			{
 				for(k = 0; k < 2 * NMAX; k++ )
 				{
-					//y[j][k] = y[j][k] / y[i][i];
+					y[j][k] = y[j][k] / y[i][i];
 					
 				}	
 			}
